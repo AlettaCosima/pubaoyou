@@ -1,0 +1,1 @@
+这个是eric基于pubaoyou项目构建的项目，将会实现pubaoyou的整体生命周期
