@@ -3,6 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.4.7</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
 	<groupId>com.pubaoyou</groupId>
 	<artifactId>pubaoyou-echi</artifactId>
 	<packaging>pom</packaging>
@@ -12,6 +19,7 @@
 		<module>pubaoyou-echi-website</module>
 		<module>pubaoyou-echi-service</module>
 		<module>pubaoyou-echi-model</module>
+		<module>pubaoyou-echi-api</module>
 	</modules>
 	<name>pubaoyou-echi</name>
 	<description>pubaoyou project for echi</description>
