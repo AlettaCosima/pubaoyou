@@ -1,21 +1,20 @@
-package com.pubaoyou.api;
+package com.pubaoyou.website;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @Author: eric
- * @Date: 2021/6/10 15:19
+ * @Date: 2021/6/10 15:31
  * @Version 1.0
  */
 
 @SpringBootApplication
-@EnableEurekaClient
-public class ApiRunner {
+public class WebRunner {
 
     public static void main(String[] args) {
-        SpringApplication.run(ApiRunner.class, args);
+        SpringApplication.run(WebRunner.class, args);
     }
 
 }

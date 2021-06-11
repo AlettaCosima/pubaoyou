@@ -20,13 +20,29 @@
 		<module>pubaoyou-echi-service</module>
 		<module>pubaoyou-echi-model</module>
 		<module>pubaoyou-echi-api</module>
+		<module>pubaoyou-echi-eurkea</module>
 	</modules>
+
+
 	<name>pubaoyou-echi</name>
 	<description>pubaoyou project for echi</description>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<spring-cloud.version>2020.0.3</spring-cloud.version>
 	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 
 </project>

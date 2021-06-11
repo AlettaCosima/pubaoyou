@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="pubaoyou-echi-api" />
         <module name="pubaoyou-echi-dao" />
+        <module name="pubaoyou-echi-eurkea" />
         <module name="pubaoyou-echi-model" />
         <module name="pubaoyou-echi-service" />
         <module name="pubaoyou-echi-website" />
@@ -19,6 +20,7 @@
       <module name="pubaoyou-echi" options="" />
       <module name="pubaoyou-echi-api" options="-parameters" />
       <module name="pubaoyou-echi-dao" options="-parameters" />
+      <module name="pubaoyou-echi-eurkea" options="-parameters" />
       <module name="pubaoyou-echi-model" options="-parameters" />
       <module name="pubaoyou-echi-service" options="-parameters" />
       <module name="pubaoyou-echi-website" options="-parameters" />
