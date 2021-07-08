@@ -1,5 +1,6 @@
 package com.pubaoyou.service.user;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,8 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user/v1")
 public class UserService {
 
-    @RequestMapping("/doLogin")
-    public String doLogin(@RequestParam String userName, String password){
+    @GetMapping("/getUserInfo")
+    public String getUserInfo(){
+        System.out.println("222222222222");
         return "login success";
     }
 
