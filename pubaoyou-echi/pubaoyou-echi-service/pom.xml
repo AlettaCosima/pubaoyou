@@ -9,6 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <modules>
+        <module>../pubaoyou-echi-model</module>
+    </modules>
+
     <artifactId>pubaoyou-echi-service</artifactId>
 
     <dependencies>
@@ -30,6 +34,12 @@
             <groupId>com.oracle.ojdbc</groupId>
             <artifactId>ojdbc8</artifactId>
             <version>19.3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pubaoyou</groupId>
+            <artifactId>pubaoyou-echi-model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>

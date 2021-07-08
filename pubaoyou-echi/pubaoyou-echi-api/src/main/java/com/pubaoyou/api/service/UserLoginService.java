@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * @Author: eric
@@ -19,7 +20,7 @@ public interface UserLoginService {
      * 查询用户信息
      * @return
      */
-    @GetMapping("/user/v1/getUserInfo")
-    public String getUserInfo();
+    @RequestMapping("/service/user/login/v1/queryUserAccount")
+    public String queryUserAccount(@RequestParam String userName,@RequestParam String password);
 
 }
