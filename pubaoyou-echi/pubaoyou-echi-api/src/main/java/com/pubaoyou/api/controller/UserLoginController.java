@@ -1,6 +1,7 @@
 package com.pubaoyou.api.controller;
 
 import com.pubaoyou.api.service.UserLoginService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +17,7 @@ import javax.annotation.Resource;
  */
 @RestController
 @RequestMapping("/user/customer/v1")
+@Slf4j
 public class UserLoginController {
 
     @Resource
@@ -24,6 +26,7 @@ public class UserLoginController {
     @RequestMapping("/queryUserAccount")
     public String queryUserAccount(@RequestParam String userName,@RequestParam String password){
         try {
+            log.info("传入用户名为{}，传入密码为{}",userName,password);
             return userLoginService.queryUserAccount(userName,password);
         } catch (Exception e) {
             e.printStackTrace();
