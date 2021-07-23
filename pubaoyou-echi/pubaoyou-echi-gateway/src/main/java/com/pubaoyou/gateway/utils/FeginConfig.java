@@ -1,4 +1,4 @@
-package com.pubaoyou.api.utils;
+package com.pubaoyou.gateway.utils;
 
 import feign.Logger;
 import org.springframework.context.annotation.Bean;

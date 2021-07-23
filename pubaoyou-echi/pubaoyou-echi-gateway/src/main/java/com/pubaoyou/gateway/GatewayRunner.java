@@ -1,8 +1,7 @@
-package com.pubaoyou.api;
+package com.pubaoyou.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
@@ -13,8 +12,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class ApiRunner {
+public class GatewayRunner {
     public static void main(String[] args) {
-        SpringApplication.run(ApiRunner.class, args);
+        SpringApplication.run(GatewayRunner.class, args);
     }
 }

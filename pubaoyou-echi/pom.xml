@@ -19,7 +19,7 @@
 		<module>pubaoyou-echi-website</module>
 		<module>pubaoyou-echi-service</module>
 		<module>pubaoyou-echi-model</module>
-		<module>pubaoyou-echi-api</module>
+		<module>pubaoyou-echi-gateway</module>
 		<module>pubaoyou-echi-eurkea</module>
         <module>pubaoyou-echi-utils</module>
     </modules>

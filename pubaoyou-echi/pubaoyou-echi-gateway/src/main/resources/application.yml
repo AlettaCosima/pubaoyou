@@ -2,7 +2,15 @@ server:
   port: 8082
 spring:
   application:
-    name: pubaoyou-api
+    name: pubaoyou-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: service-hi
+          uri: lb://PUBAOYOU-SERVICE
+          predicates:
+          - Path=/service/**
+
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 5      # 心跳时间，即服务续约间隔时间（缺省为30s）
