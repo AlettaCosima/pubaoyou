@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ba62573-9323-49d7-88a4-0ae0d54dd352" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pubaoyou-echi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/SSLClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadTGT.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\stuty\github\pubaoyou\pubaoyou-echi\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/software/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\software\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wDYw0urPiDwNC0GRGPIdkJu61s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pubaoyou-echi-website/pom.xml" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.42528737" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Application.GatewayRunner">
+    <configuration name="EurkeaRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pubaoyou.eurkea.EurkeaRunner" />
+      <module name="pubaoyou-echi-eurkea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pubaoyou.eurkea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pubaoyou.gateway.GatewayRunner" />
+      <module name="pubaoyou-echi-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pubaoyou.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pubaoyou.service.ServiceRunner" />
+      <module name="pubaoyou-echi-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pubaoyou.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GatewayRunner" />
+        <item itemvalue="Application.ServiceRunner" />
+        <item itemvalue="Application.EurkeaRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ba62573-9323-49d7-88a4-0ae0d54dd352" name="Default Changelist" comment="" />
+      <created>1627994860035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627994860035</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Markdown" timestamp="1627995011410">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Markdown/0.0.1920.1040@0.0.1920.1040" timestamp="1627995011410" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1627995155146">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627995155146" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1627995773647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627995773647" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1627995773647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627995773647" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1627995773647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627995773647" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1627995773647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627995773647" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1627995387854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627995387854" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1627995061784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627995061784" />
+  </component>
+</project>

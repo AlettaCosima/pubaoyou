@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/README.md" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/pubaoyou-echi-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pubaoyou-echi-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pubaoyou-echi-eurkea" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pubaoyou-echi-eurkea/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pubaoyou-echi-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pubaoyou-echi-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pubaoyou-echi-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pubaoyou-echi-model/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pubaoyou-echi-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pubaoyou-echi-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pubaoyou-echi-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pubaoyou-echi-website" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pubaoyou-echi-website/src/main/java" charset="UTF-8" />
   </component>
 </project>
