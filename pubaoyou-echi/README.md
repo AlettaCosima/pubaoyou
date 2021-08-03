@@ -5,4 +5,6 @@
 2、gateway
 3、hystrix
 4、config
-4、fegin
+4、openfegin
+
+2021-07-09 完成日志及gateway集成

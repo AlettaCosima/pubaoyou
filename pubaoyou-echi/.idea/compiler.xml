@@ -11,6 +11,7 @@
         <module name="pubaoyou-echi-eurkea" />
         <module name="pubaoyou-echi-model" />
         <module name="pubaoyou-echi-service" />
+        <module name="pubaoyou-echi-utils" />
         <module name="pubaoyou-echi-website" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="pubaoyou-echi-eurkea" options="-parameters" />
       <module name="pubaoyou-echi-model" options="-parameters" />
       <module name="pubaoyou-echi-service" options="-parameters" />
+      <module name="pubaoyou-echi-utils" options="-parameters" />
       <module name="pubaoyou-echi-website" options="-parameters" />
     </option>
   </component>
