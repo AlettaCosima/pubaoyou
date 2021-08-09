@@ -17,3 +17,4 @@ eureka:
       enabled: true # 开启健康检查（依赖spring-boot-starter-actuator）
 logging:
   config: classpath:logback-spring.xml
+

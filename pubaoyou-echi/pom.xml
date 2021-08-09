@@ -22,6 +22,7 @@
 		<module>pubaoyou-echi-gateway</module>
 		<module>pubaoyou-echi-eurkea</module>
         <module>pubaoyou-echi-utils</module>
+        <module>pubaoyou-echi-security</module>
     </modules>
 
 

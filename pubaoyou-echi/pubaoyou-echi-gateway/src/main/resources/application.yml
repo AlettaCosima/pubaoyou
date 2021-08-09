@@ -10,7 +10,9 @@ spring:
           uri: lb://PUBAOYOU-SERVICE
           predicates:
           - Path=/service/**
-
+          filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 5      # 心跳时间，即服务续约间隔时间（缺省为30s）
