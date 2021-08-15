@@ -1,4 +1,4 @@
-package com.pubaoyou.gateway.utils;
+package com.pubaoyou.service.utils;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +18,7 @@ public class SwaggerConfig {
     @Bean
     public Docket createRestApi(){
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
-                .apis(RequestHandlerSelectors.basePackage("com.pubaoyou.gateway.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.pubaoyou.service.controller"))
                 .paths(PathSelectors.any()).build();
     }
 
