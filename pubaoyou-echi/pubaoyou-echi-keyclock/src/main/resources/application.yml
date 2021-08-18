@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: pubaoyou-echi-keyclock
+server:
+  port: 8084
+keycloak:
+  # 表示是一个public的client
+  public-client: true
+  # keycloak的地址
+  auth-server-url: http://172.16.149.14:30321/auth
+  # keycloak中的realm
+  realm: tao.chen
+  # client ID
+  resource: keyclock-eric
+  # 安全约束
+  securityConstraints:
+    - authRoles:
+        # 以下路径需要demoUser角色才能访问
+        - RolesUser
+      securityCollections:
+        # name可以随便写
+        - name: common user
+          patterns:
+            - /keyclock/getValue
