@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: service-hi
+          uri: lb://pubaoyou-service
+          predicates:
+          - Path=/service/**
+      nacos:
+        discovery:
+          server-addr: 172.16.149.14:31824  #nacos注册中心配置
+

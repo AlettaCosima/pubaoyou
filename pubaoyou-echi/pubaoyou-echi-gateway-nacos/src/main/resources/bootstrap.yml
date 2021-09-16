@@ -1,0 +1,12 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: pubaoyou-gateway-nacos
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: 172.16.149.14:31824
+      discovery:
+        server-addr: 172.16.149.14:31824  #nacos注册中心配置
