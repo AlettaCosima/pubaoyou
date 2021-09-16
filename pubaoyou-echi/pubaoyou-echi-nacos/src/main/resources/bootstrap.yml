@@ -1,0 +1,19 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: pubaoyou-nacos
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: 172.16.149.14:31824
+      config:
+        server-addr: 172.16.149.14:31824  #nacos配置中心配置
+        file-extension: yaml  #nacos配置中心配置，只有yaml或者properties的配置
+      discovery:
+        server-addr: 172.16.149.14:31824  #nacos注册中心配置
+
+
+
+
