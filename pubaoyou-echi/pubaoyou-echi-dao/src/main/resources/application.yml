@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: pubaoyou-dao
+
+logging:
+  config: classpath:logback-spring.xml
+

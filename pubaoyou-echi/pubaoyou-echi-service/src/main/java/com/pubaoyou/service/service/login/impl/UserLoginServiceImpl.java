@@ -1,9 +1,12 @@
 package com.pubaoyou.service.service.login.impl;
 
-import com.echi.model.user.UserAccountDO;
+import com.pubaoyou.dao.login.impl.LoginUserDaoImpl;
+import com.pubaoyou.dao.models.ItsscAccount;
+import com.pubaoyou.model.user.UserAccountDO;
 import com.pubaoyou.service.service.login.UserLoginService;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.*;
 
 /**
@@ -14,17 +17,12 @@ import java.util.*;
 @Service
 public class UserLoginServiceImpl implements UserLoginService {
 
+    @Resource
+    private LoginUserDaoImpl loginUserDao;
+
     @Override
-    public List<UserAccountDO> queryUserAccount(String userName, String password) throws Exception {
-        List<UserAccountDO> list = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            UserAccountDO userAccountDO = new UserAccountDO();
-            userAccountDO.setUserID(String.valueOf(i));
-            userAccountDO.setUserName("zhangsan"+i);
-            userAccountDO.setPassword("zhangsanpw"+i);
-            userAccountDO.setLocked(true);
-            list.add(userAccountDO);
-        }
+    public List<ItsscAccount> queryUserAccount(String userName, String password) throws Exception {
+        List<ItsscAccount> list =  loginUserDao.queryUserAccount(userName,password);
         return list;
     }
 }

@@ -3,16 +3,16 @@ server:
 spring:
   application:
     name: pubaoyou-gateway
-  cloud:
-    gateway:
-      routes:
-        - id: service-hi
-          uri: lb://PUBAOYOU-SERVICE
-          predicates:
-          - Path=/service/**
-          filters:
-            - SwaggerHeaderFilter
-            - StripPrefix=1
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: service-hi
+#          uri: lb://PUBAOYOU-SERVICE
+#          predicates:
+#          - Path=/service/**
+#          filters:
+#            - SwaggerHeaderFilter
+#            - StripPrefix=1 #截取请求参数，如/hello/world/xxx,则截取后为/word/xxxx
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 5      # 心跳时间，即服务续约间隔时间（缺省为30s）

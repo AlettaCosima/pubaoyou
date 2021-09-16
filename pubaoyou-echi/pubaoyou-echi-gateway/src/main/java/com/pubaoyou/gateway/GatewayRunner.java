@@ -9,7 +9,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @Date: 2021/6/10 15:19
  * @Version 1.0
  */
-
 @SpringBootApplication
 @EnableFeignClients
 public class GatewayRunner {

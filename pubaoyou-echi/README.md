@@ -5,6 +5,7 @@
 2、gateway
 3、hystrix
 4、config
-4、openfegin
+5、openfegin
+6、集成wechat
 
 2021-07-09 完成日志及gateway集成

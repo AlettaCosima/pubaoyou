@@ -1,16 +1,10 @@
-package com.pubaoyou.service.service.login;
+package com.pubaoyou.dao.login;
 
 import com.pubaoyou.dao.models.ItsscAccount;
-import com.pubaoyou.model.user.UserAccountDO;
 
 import java.util.List;
 
-/**
- * @Author: eric
- * @Date: 2021/7/8 16:29
- * @Version 1.0
- */
-public interface UserLoginService {
+public interface LoginUserDao {
 
     /**
      * 根据用户名密码查询账户信息

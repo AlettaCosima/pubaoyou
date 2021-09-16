@@ -1,11 +1,10 @@
-package com.pubaoyou.service;
+package com.pubaoyou;
 
-import oracle.jdbc.driver.OracleDriver;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-import java.sql.*;
 
 /**
  * @Author: eric
@@ -14,6 +13,8 @@ import java.sql.*;
  */
 
 @SpringBootApplication
+//@ComponentScan(basePackages = "com.pubaoyou.dao")
+@MapperScan(basePackages = "com.pubaoyou.dao.mapper")
 @EnableEurekaClient
 public class ServiceRunner {
     public static void main(String[] args) {

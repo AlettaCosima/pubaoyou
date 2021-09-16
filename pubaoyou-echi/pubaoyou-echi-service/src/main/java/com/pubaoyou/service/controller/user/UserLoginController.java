@@ -1,7 +1,8 @@
 package com.pubaoyou.service.controller.user;
 
-import com.echi.model.user.UserAccountDO;
 import com.google.gson.Gson;
+import com.pubaoyou.dao.models.ItsscAccount;
+import com.pubaoyou.model.user.UserAccountDO;
 import com.pubaoyou.service.controller.common.CommonController;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -34,11 +35,13 @@ public class UserLoginController extends CommonController {
     public String queryUserAccount(@RequestParam String userName,@RequestParam String password){
         try {
             log.info("传入用户名为{}，传入密码为{}",userName,password);
-            List<UserAccountDO> list = userLoginService.queryUserAccount(userName,password);
-            return new Gson().toJson(list);
+            List<ItsscAccount> list = userLoginService.queryUserAccount(userName,password);
+            if (list != null && list.size()>0){
+                return new Gson().toJson(list);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return null;
+        return "数据为空！！！";
     }
 }

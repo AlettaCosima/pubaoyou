@@ -23,7 +23,8 @@
 		<module>pubaoyou-echi-eurkea</module>
         <module>pubaoyou-echi-utils</module>
         <module>pubaoyou-echi-security</module>
-    </modules>
+		<module>pubaoyou-echi-wechat</module>
+	</modules>
 
 
 	<name>pubaoyou-echi</name>
@@ -51,6 +52,18 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-sleuth</artifactId>
+		</dependency>
+
+		<!-- swagger依赖 -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.9.2</version>
 		</dependency>
 	</dependencies>
 

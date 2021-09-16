@@ -1,4 +1,4 @@
-package com.echi.model.user;
+package com.pubaoyou.model.user;
 
 import lombok.Getter;
 import lombok.Setter;
