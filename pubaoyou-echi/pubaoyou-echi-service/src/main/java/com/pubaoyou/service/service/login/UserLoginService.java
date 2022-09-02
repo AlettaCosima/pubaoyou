@@ -1,7 +1,6 @@
 package com.pubaoyou.service.service.login;
 
 import com.pubaoyou.dao.models.ItsscAccount;
-import com.pubaoyou.model.user.UserAccountDO;
 
 import java.util.List;
 
@@ -18,4 +17,9 @@ public interface UserLoginService {
      * @throws Exception
      */
     public List<ItsscAccount> queryUserAccount(String userName, String password) throws Exception;
+
+
+    public ItsscAccount queryUserByName(String userName) throws Exception;
+
+
 }

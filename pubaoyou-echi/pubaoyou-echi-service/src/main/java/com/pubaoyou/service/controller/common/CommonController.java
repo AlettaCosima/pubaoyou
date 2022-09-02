@@ -12,4 +12,6 @@ public class CommonController {
 
     @Autowired
     protected UserLoginService userLoginService;
+
+
 }

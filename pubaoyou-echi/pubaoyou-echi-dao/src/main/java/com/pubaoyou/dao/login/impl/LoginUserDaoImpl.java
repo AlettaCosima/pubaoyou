@@ -21,7 +21,13 @@ public class LoginUserDaoImpl implements LoginUserDao {
     public List<ItsscAccount> queryUserAccount(String userName, String password) throws Exception {
         log.info("dao层传入用户名为{}，传入密码为{}",userName,password);
         ItsscAccountExample itsscAccountExample = new ItsscAccountExample();
-        itsscAccountExample.createCriteria().andUserNameEqualTo(userName).andUserPwdEqualTo(password);
+        if(userName != null){
+            itsscAccountExample.createCriteria().andUserNameEqualTo(userName);
+        }
+        if(password != null){
+            itsscAccountExample.createCriteria().andUserNameEqualTo(password);
+        }
         return itsscAccountMapper.selectByExample(itsscAccountExample);
     }
+
 }

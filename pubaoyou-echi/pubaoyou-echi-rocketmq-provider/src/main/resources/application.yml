@@ -1,0 +1,11 @@
+server:
+  port: 8190
+
+spring:
+  application:
+    name: pubaoyou-rocketmq-provider
+
+rocketmq:
+  name-server: 172.16.229.41:9876
+  producer:
+    group: my-group

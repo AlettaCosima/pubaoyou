@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>Spring Security Example</title>
+    <link rel="stylesheet" href="/css/login.css" />
+    <script type="text/javascript" src="/js/jquery.1.11.1.js"></script>
+</head>
+<script>
+    function dologin() {
+        $("#_login_form").submit();
+    }
+</script>
+<body>
+<div th:if="${param.error}">
+    Invalid username and password.
+</div>
+<div th:if="${param.logout}">
+    You have been logged out.
+</div>
+<form th:action="@{/pubaoyou/echi/v1/doLogin}" method="post" id="_login_form">
+<div class="divright">
+    <div class="login">
+        <h2>用户登录</h2>
+        <div class="login_box">
+
+            <input type="text" name="userName" required /><label>用户名/邮箱/手机号</label>
+        </div>
+        <div class="login_box">
+            <input type="password" name="password" required="required" /><label>密码</label>
+        </div>
+        <a href="javascript:dologin()">登录</a>
+    </div>
+</div>
+<div class="divleft">
+    <h2 style="font-family: fantasy; color: darkgoldenrod;"></h2>
+</div>
+</form>
+</body>
+</html>

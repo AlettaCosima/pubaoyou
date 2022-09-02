@@ -1,0 +1,52 @@
+server:
+  port: 8101
+spring:
+  application:
+    name: pubaoyou-echi-seata-account
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver #mysql8配置驱动
+    url: jdbc:mysql://172.16.149.12:3306/new_itssc?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: abc123
+    hikari:
+      maximumPoolSize: 10
+      minimumIdle: 2
+      idleTimeout: 600000
+      connectionTimeout: 30000
+      maxLifetime: 1800000
+  cloud:
+    nacos:
+      server-addr: 172.16.149.14:31824
+      discovery:
+        server-addr: 172.16.149.14:31824  #nacos注册中心配置
+
+seata:
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 172.16.149.14:31824
+      group : "SEATA_GROUP"
+      namespace: ""
+      username: "nacos"
+      password: "nacos"
+  config:
+    type: nacos
+    nacos:
+      server-addr: 172.16.149.14:31824
+      group: "SEATA_GROUP"
+      namespace: ""
+      username: "nacos"
+      password: "nacos"
+  tx-service-group: my_test_tx_group #事务组
+  service:
+    vgroup-mapping:
+      my_test_tx_group: default
+    disable-global-transaction: false
+
+mybatis:
+  type-aliases-package: com.pubaoyou.seata.account.models
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #增加mybatis日志打印

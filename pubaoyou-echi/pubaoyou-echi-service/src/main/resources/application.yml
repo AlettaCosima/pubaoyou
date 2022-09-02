@@ -31,3 +31,7 @@ mybatis:
 logging:
   config: classpath:logback-spring.xml
 
+redmine:
+  api:
+    keys: 018e43349b9cca05a6fb3bc59077db3629ea7ec8
+

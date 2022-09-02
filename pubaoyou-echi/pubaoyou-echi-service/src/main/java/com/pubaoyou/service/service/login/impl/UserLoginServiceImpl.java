@@ -2,7 +2,6 @@ package com.pubaoyou.service.service.login.impl;
 
 import com.pubaoyou.dao.login.impl.LoginUserDaoImpl;
 import com.pubaoyou.dao.models.ItsscAccount;
-import com.pubaoyou.model.user.UserAccountDO;
 import com.pubaoyou.service.service.login.UserLoginService;
 import org.springframework.stereotype.Service;
 
@@ -24,5 +23,10 @@ public class UserLoginServiceImpl implements UserLoginService {
     public List<ItsscAccount> queryUserAccount(String userName, String password) throws Exception {
         List<ItsscAccount> list =  loginUserDao.queryUserAccount(userName,password);
         return list;
+    }
+
+    @Override
+    public ItsscAccount queryUserByName(String userName) throws Exception {
+        return null;
     }
 }

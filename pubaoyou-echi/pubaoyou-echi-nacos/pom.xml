@@ -32,6 +32,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+
         <!-- 引入springcloud jar 否则bootstarp.yml不加载-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

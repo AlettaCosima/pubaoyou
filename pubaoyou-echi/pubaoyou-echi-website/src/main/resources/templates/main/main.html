@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>itssc operate main page</title>
+</head>
+<script type="text/javascript" src="/js/jquery.1.11.1.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        $("#userName").html("[[${userName}]]");
+        // $("#roles").html("[[${roles}]]");
+    })
+
+
+</script>
+<body>
+
+<div>这是<span id="userName"></span>登录了，使用的是<span id="roles"></span>的角色</div>
+</body>
+</html>

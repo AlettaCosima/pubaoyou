@@ -1,20 +1,37 @@
-server:
-  port: 8081
-
 spring:
-  application:
-    name: pubaoyou-service
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver #mysql8配置驱动
+    url: jdbc:mysql://172.16.149.12:3306/new_itssc?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: abc123
+    hikari:
+      maximumPoolSize: 10
+      minimumIdle: 2
+      idleTimeout: 600000
+      connectionTimeout: 30000
+      maxLifetime: 1800000
 
-eureka:
-  instance:
-    lease-renewal-interval-in-seconds: 5      # 心跳时间，即服务续约间隔时间（缺省为30s）
-    lease-expiration-duration-in-seconds: 15  # 发呆时间，即服务续约到期时间（缺省为90s）
-  client:
-    registry-fetch-interval-seconds: 10 # 拉取服务注册信息间隔（缺省为30s）
-    service-url:
-      defaultZone: http://localhost:8080/eureka/
-    healthcheck:
-      enabled: true # 开启健康检查（依赖spring-boot-starter-actuator）
+mybatis:
+  type-aliases-package: com.pubaoyou.dao.models
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #增加mybatis日志打印
+
+#eureka:
+#  instance:
+#    lease-renewal-interval-in-seconds: 5      # 心跳时间，即服务续约间隔时间（缺省为30s）
+#    lease-expiration-duration-in-seconds: 15  # 发呆时间，即服务续约到期时间（缺省为90s）
+#  client:
+#    registry-fetch-interval-seconds: 10 # 拉取服务注册信息间隔（缺省为30s）
+#    service-url:
+#      defaultZone: http://localhost:8080/eureka/
+#    healthcheck:
+#      enabled: true # 开启健康检查（依赖spring-boot-starter-actuator）
 logging:
   config: classpath:logback-spring.xml
+
+redmine:
+  api:
+    keys: 018e43349b9cca05a6fb3bc59077db3629ea7ec8
 

@@ -1,17 +1,14 @@
 package com.pubaoyou.service.controller.user;
 
-import com.google.gson.Gson;
+import com.alibaba.fastjson.JSONObject;
 import com.pubaoyou.dao.models.ItsscAccount;
-import com.pubaoyou.model.user.UserAccountDO;
 import com.pubaoyou.service.controller.common.CommonController;
-import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -20,10 +17,10 @@ import java.util.List;
  * @Date: 2021/7/8 16:54
  * @Version 1.0
  */
-@RestController
-@RequestMapping("/service/user/login/v1")
+//@RestController
+//@RequestMapping("/service/user/login/v1")
 @Slf4j
-@Api("登录相关接口文档")
+//@Api("登录相关接口文档")
 public class UserLoginController extends CommonController {
 
     @RequestMapping("/queryUserAccount")
@@ -37,7 +34,7 @@ public class UserLoginController extends CommonController {
             log.info("传入用户名为{}，传入密码为{}",userName,password);
             List<ItsscAccount> list = userLoginService.queryUserAccount(userName,password);
             if (list != null && list.size()>0){
-                return new Gson().toJson(list);
+                return JSONObject.toJSON(list).toString();
             }
         } catch (Exception e) {
             e.printStackTrace();

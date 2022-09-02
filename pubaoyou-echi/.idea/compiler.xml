@@ -7,27 +7,65 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pubaoyou-echi-gateway" />
-        <module name="pubaoyou-echi-utils" />
-        <module name="pubaoyou-echi-model" />
-        <module name="pubaoyou-echi-eurkea" />
-        <module name="pubaoyou-echi-service" />
-        <module name="pubaoyou-echi-website" />
         <module name="pubaoyou-echi-dao" />
+        <module name="pubaoyou-echi-dockerfile" />
+        <module name="pubaoyou-echi-eurkea" />
+        <module name="pubaoyou-echi-exam" />
+        <module name="pubaoyou-echi-gateway" />
+        <module name="pubaoyou-echi-gateway-nacos" />
+        <module name="pubaoyou-echi-itextpdf" />
+        <module name="pubaoyou-echi-keyclock" />
+        <module name="pubaoyou-echi-model" />
+        <module name="pubaoyou-echi-nacos" />
+        <module name="pubaoyou-echi-native" />
+        <module name="pubaoyou-echi-rabbitmq" />
+        <module name="pubaoyou-echi-rabbitmq-consumer" />
+        <module name="pubaoyou-echi-rocketmq-customer" />
+        <module name="pubaoyou-echi-rocketmq-provider" />
+        <module name="pubaoyou-echi-seata-account" />
+        <module name="pubaoyou-echi-seata-api" />
+        <module name="pubaoyou-echi-seata-order" />
+        <module name="pubaoyou-echi-seata-storage" />
+        <module name="pubaoyou-echi-security" />
+        <module name="pubaoyou-echi-service" />
+        <module name="pubaoyou-echi-utils" />
+        <module name="pubaoyou-echi-website" />
+        <module name="pubaoyou-echi-wechat" />
+        <module name="pubaoyou-echi-xxljob" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pubaoyou-echi-seata" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="pubaoyou-echi" options="" />
-      <module name="pubaoyou-echi-api" options="-parameters" />
       <module name="pubaoyou-echi-dao" options="-parameters" />
+      <module name="pubaoyou-echi-dockerfile" options="-parameters" />
       <module name="pubaoyou-echi-eurkea" options="-parameters" />
+      <module name="pubaoyou-echi-exam" options="-parameters" />
       <module name="pubaoyou-echi-gateway" options="-parameters" />
+      <module name="pubaoyou-echi-gateway-nacos" options="-parameters" />
+      <module name="pubaoyou-echi-itextpdf" options="-parameters" />
+      <module name="pubaoyou-echi-keyclock" options="-parameters" />
       <module name="pubaoyou-echi-model" options="-parameters" />
+      <module name="pubaoyou-echi-nacos" options="-parameters" />
+      <module name="pubaoyou-echi-native" options="-parameters" />
+      <module name="pubaoyou-echi-rabbitmq" options="-parameters" />
+      <module name="pubaoyou-echi-rabbitmq-consumer" options="-parameters" />
+      <module name="pubaoyou-echi-rocketmq-customer" options="-parameters" />
+      <module name="pubaoyou-echi-rocketmq-provider" options="-parameters" />
+      <module name="pubaoyou-echi-seata" options="-parameters" />
+      <module name="pubaoyou-echi-seata-account" options="-parameters" />
+      <module name="pubaoyou-echi-seata-api" options="-parameters" />
+      <module name="pubaoyou-echi-seata-order" options="-parameters" />
+      <module name="pubaoyou-echi-seata-storage" options="-parameters" />
+      <module name="pubaoyou-echi-security" options="-parameters" />
       <module name="pubaoyou-echi-service" options="-parameters" />
       <module name="pubaoyou-echi-utils" options="-parameters" />
       <module name="pubaoyou-echi-website" options="-parameters" />
+      <module name="pubaoyou-echi-wechat" options="-parameters" />
+      <module name="pubaoyou-echi-xxljob" options="-parameters" />
     </option>
   </component>
 </project>

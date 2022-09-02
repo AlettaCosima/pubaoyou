@@ -1,0 +1,35 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: pubaoyou-rabbitmq-customer
+  rabbitmq:
+    # 集群地址，用逗号分隔
+    connection-timeout: 15000
+    username: admin
+    password: itssc@123456
+    virtual-host: /
+    port: 30734
+    host: 172.16.149.14
+    listener:
+      direct:
+        acknowledge-mode: manual
+        retry:
+          enabled: true
+          max-attempts: 5
+          max-interval: 10000
+      simple:
+        acknowledge-mode: manual
+        retry:
+          enabled: true
+          max-interval: 1000
+          max-attempts: 3
+
+
+
+
+
+
+
+

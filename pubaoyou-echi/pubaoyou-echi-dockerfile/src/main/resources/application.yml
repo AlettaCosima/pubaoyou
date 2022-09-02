@@ -1,0 +1,9 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: pubaoyou-dockerfile
+
+logging:
+  config: classpath:logback-spring.xml

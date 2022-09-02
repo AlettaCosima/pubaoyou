@@ -1,0 +1,39 @@
+server:
+  port: 8103
+spring:
+  application:
+    name: pubaoyou-echi-seata-api
+  cloud:
+    nacos:
+      server-addr: 172.16.149.14:31824
+      discovery:
+        server-addr: 172.16.149.14:31824  #nacos注册中心配置
+
+seata:
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 172.16.149.14:31824
+      group : "SEATA_GROUP"
+      namespace: ""
+      username: "nacos"
+      password: "nacos"
+  config:
+    type: nacos
+    nacos:
+      server-addr: 172.16.149.14:31824
+      group: "SEATA_GROUP"
+      namespace: ""
+      username: "nacos"
+      password: "nacos"
+  tx-service-group: my_test_tx_group #事务组
+  service:
+    vgroup-mapping:
+      my_test_tx_group: default
+    disable-global-transaction: false
+
+
+
+
+

@@ -22,8 +22,24 @@
 		<module>pubaoyou-echi-gateway</module>
 		<module>pubaoyou-echi-eurkea</module>
         <module>pubaoyou-echi-utils</module>
-        <module>pubaoyou-echi-security</module>
 		<module>pubaoyou-echi-wechat</module>
+        <module>pubaoyou-echi-nacos</module>
+        <module>pubaoyou-echi-gateway-nacos</module>
+		<module>pubaoyou-echi-rabbitmq</module>
+        <module>pubaoyou-echi-rabbitmq-consumer</module>
+		<module>pubaoyou-echi-native</module>
+        <module>pubaoyou-echi-dockerfile</module>
+        <module>pubaoyou-echi-security</module>
+		<module>pubaoyou-echi-seata-account</module>
+		<module>pubaoyou-echi-seata-order</module>
+		<module>pubaoyou-echi-seata-storage</module>
+        <module>pubaoyou-echi-seata-api</module>
+        <module>pubaoyou-echi-rocketmq-provider</module>
+        <module>pubaoyou-echi-rocketmq-customer</module>
+        <module>pubaoyou-echi-exam</module>
+        <module>pubaoyou-echi-xxljob</module>
+        <!--<module>pubaoyou-echi-graphql</module>-->
+		<module>pubaoyou-echi-itextpdf</module>
 	</modules>
 
 
@@ -36,12 +52,6 @@
 	</properties>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>2.8.6</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -64,6 +74,13 @@
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
 			<version>2.9.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.78</version>
 		</dependency>
 	</dependencies>
 

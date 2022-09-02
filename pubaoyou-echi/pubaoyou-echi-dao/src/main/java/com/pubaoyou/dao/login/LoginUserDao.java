@@ -12,4 +12,5 @@ public interface LoginUserDao {
      * @throws Exception
      */
     public List<ItsscAccount> queryUserAccount(String userName, String password) throws Exception;
+
 }

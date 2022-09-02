@@ -1,164 +1,1180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ba62573-9323-49d7-88a4-0ae0d54dd352" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pubaoyou-echi.iml" afterDir="false" />
+    <list default="true" id="9231d821-5497-441d-845c-5f3453f4fbcf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/itext/utils/ITestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubaoyou-echi-utils/src/main/java/com/pubaoyou/utils/HttpClient/HttpClientUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubaoyou-echi-utils/src/main/java/com/pubaoyou/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubaoyou-echi-utils/src/main/java/com/pubaoyou/utils/TipsUtils/TipsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/security/CustomerUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/java/com/pubaoyou/wechat/WechatRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/java/com/pubaoyou/wechat/config/AccessTokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/java/com/pubaoyou/wechat/config/WechatConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/java/com/pubaoyou/wechat/constant/WechatUrlConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/java/com/pubaoyou/wechat/controller/TemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pubaoyou_echi_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pubaoyou-echi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17d37e14bd44d57bd38163b321cb4adc9541195f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1cd99e6aec1c122b73dade9d9db6c040adf4948e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/2502a472647769f499d5cfde18a73c4ebc67b749" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45b2b2ea602ca397480814641a32d5dda12ac365" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64fa8e2924a01ec93113f61242a027a72bfe3a4e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9dcdb937309d576e3d253035c1d3fefcead81453" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab41220f1f9bdb1ddeb9449fc1f20d7f7ef1591a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c24b0c70c524ef2e55d9fb0cc8b748531704d260" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2a3b642c5f89e5b7292884cc6c819bed5152da3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4171b7464f98c530ce8489585ce4884727e28d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df6f0b6b84baf823797588bbfe361d098dc7a459" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7b40319d993778bb73f2c19d3bafc143ce6a24c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5cb3a2c0a91f5a828822b64dd7994c549343eb9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f90412e11c5520281e2169d8676e9da91a87caee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-dao/src/main/java/com/pubaoyou/dao/DaoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-dao/src/main/java/com/pubaoyou/dao/DaoRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-dao/src/main/java/com/pubaoyou/dao/login/LoginUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-dao/src/main/java/com/pubaoyou/dao/login/LoginUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-dao/src/main/java/com/pubaoyou/dao/login/impl/LoginUserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-dao/src/main/java/com/pubaoyou/dao/login/impl/LoginUserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-eurkea/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-eurkea/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-eurkea/src/main/java/com/pubaoyou/eurkea/EurkeaRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-eurkea/src/main/java/com/pubaoyou/eurkea/EurkeaRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-eurkea/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-eurkea/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-eurkea/target/classes/com/pubaoyou/eurkea/EurkeaRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway-nacos/src/main/java/com/pubaoyou/NacosGatewayRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-gateway-nacos/src/main/java/com/pubaoyou/NacosGatewayRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/SSLClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/test/java/ThreadTGT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/main/java/com/pubaoyou/gateway/GatewayRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/main/java/com/pubaoyou/gateway/GatewayRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/main/java/com/pubaoyou/gateway/swagger/SwaggerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/main/java/com/pubaoyou/gateway/swagger/SwaggerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/main/java/com/pubaoyou/gateway/swagger/SwaggerHeaderFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/main/java/com/pubaoyou/gateway/swagger/SwaggerHeaderFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/main/java/com/pubaoyou/gateway/swagger/SwaggerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-gateway/src/main/java/com/pubaoyou/gateway/swagger/SwaggerProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/target/classes/com/pubaoyou/gateway/GatewayRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-gateway/target/classes/com/pubaoyou/gateway/GatewayRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/target/classes/com/pubaoyou/gateway/controller/UserLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/target/classes/com/pubaoyou/gateway/service/UserLoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/target/classes/com/pubaoyou/gateway/utils/FeginConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-gateway/target/test-classes/META-INF/pubaoyou-echi-gateway.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-keyclock/pubaoyou-echi-keyclock.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-model/src/main/java/com/pubaoyou/model/user/UserAccountDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-model/src/main/java/com/pubaoyou/model/user/UserAccountDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-model/target/classes/com/echi/model/user/UserAccountDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-nacos/src/main/java/com/pubaoyou/NacosRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-nacos/src/main/java/com/pubaoyou/NacosRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-nacos/src/main/java/com/pubaoyou/nacos/config/NacosConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-nacos/src/main/java/com/pubaoyou/nacos/config/NacosConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-native/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/ServiceRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/ServiceRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/controller/common/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/controller/common/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/controller/user/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/controller/user/UserLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/service/login/UserLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/service/login/UserLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/service/login/impl/UserLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/service/login/impl/UserLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/utils/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/utils/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/target/classes/com/pubaoyou/service/ServiceRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/target/classes/com/pubaoyou/service/controller/user/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-service/target/classes/com/pubaoyou/service/controller/user/UserLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/target/classes/com/pubaoyou/service/service/login/UserLoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-service/target/classes/com/pubaoyou/service/service/login/UserLoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-service/target/classes/com/pubaoyou/service/service/login/impl/UserLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-service/target/classes/com/pubaoyou/service/service/login/impl/UserLoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-website/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-website/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/WebRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/WebRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-website/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-website/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubaoyou-echi-wechat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pubaoyou-echi-wechat/pom.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-utils/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-model/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-dao/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-eurkea/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-security/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-service/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-rabbitmq-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-native/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-website/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-gateway-nacos/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-dockerfile/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-nacos/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-wechat/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-keyclock/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-seata/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-seata-account/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-seata-storage/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-seata-order/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-seata-api/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-rocketmq-provider/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-rocketmq-customer/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-exam/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-xxljob/target/" />
+    <ignored path="$PROJECT_DIR$/pubaoyou-echi-itextpdf/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/itext/utils/ITestUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="62" column="63" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/itext/controller/ItextController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/itext/ITestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>json</find>
+      <find>updateByExample</find>
+      <find>changeAccount</find>
+      <find>com.pubaoyou.dao.models.ItsscAccount</find>
+      <find>Update_By_Example_Where_Clause</find>
+      <find>updateByPrimaryKey</find>
+      <find>updateByPrimaryKeySelective</find>
+      <find>destination</find>
+      <find>login</find>
+      <find>do</find>
+      <find>fonts</find>
+      <find>link</find>
+      <find>www.fsg.com.cn</find>
+      <find>pubaoyou/echi/v1/toLogin</find>
+      <find>refresh</find>
+      <find>loadUserByUsername</find>
+      <find>jquert</find>
+      <find>_index_login</find>
+      <find>selectByExample</find>
+      <find>API</find>
+      <find>APIS</find>
+    </findStrings>
+    <dirStrings>
+      <dir>F:\project\github\pubaoyou\pubaoyou-echi\pubaoyou-echi-wechat</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="F:\stuty\github\pubaoyou\pubaoyou-echi\.idea" />
-      </set>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pubaoyou-echi-rocketmq-customer/src/main/java/com/pubaoyou/controller/RocketMQCustomerController.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-rocketmq-provider/src/main/java/com/pubaoyou/controller/RocketMqProviderController.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/test/java/TrinoLdapTest.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/test/java/AdvancedBindDemo.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/entity/Users.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/security/MyAuthenticationSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/resources/static/js/SmoothScroll.js" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/resources/templates/main/main.html" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/resources/static/css/login.css" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/resources/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-wechat/pom.xml" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/WebRunner.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/WebRunner.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/controller/user/UserLoginController.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/pom.xml" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/service/login/UserLoginService.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/service/login/impl/UserLoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-dao/src/main/java/com/pubaoyou/dao/mapper/ItsscAccountMapper.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-dao/src/main/java/com/pubaoyou/dao/login/LoginUserDao.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/security/CustomerUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-dao/src/main/java/com/pubaoyou/dao/login/impl/LoginUserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-wechat/src/test/java/weixin/weixin.properties" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-wechat/src/test/java/com/pubaoyou/test/LambdaTest.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-exam/pom.xml" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-exam/src/main/java/com/pubaoyou/service/impl/ExamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-exam/src/main/java/com/pubaoyou/service/ExamService.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-exam/src/main/resources/templates/main/success.html" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-exam/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-exam/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-exam/src/main/java/com/pubaoyou/ExamRunner.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-exam/src/main/java/com/pubaoyou/controller/ExamController.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-utils/src/main/java/com/pubaoyou/utils/Base64Utils.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/java/com/pubaoyou/wechat/constant/WechatUrlConstant.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-seata-account/src/main/java/com/pubaoyou/seata/account/controller/AccountController.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/controller/UserLoginController.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-native/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/utils/ITestUtils.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/itext/ItestRunner.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-itextpdf/pom.xml" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/itext/utils/ITestUtils.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/itext/controller/ItextController.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/itext/ITestRunner.java" />
+        <option value="$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/resources/application.yml" />
+      </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="F:/software/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="F:\software\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="mavenHome" value="F:/resource/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="F:\resource\maven\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1wDYw0urPiDwNC0GRGPIdkJu61s" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="147" />
+    <option name="width" value="1937" />
+    <option name="height" value="883" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-itextpdf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-itextpdf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-itextpdf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-itextpdf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-itextpdf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itext" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-itextpdf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itext" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubaoyou-echi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubaoyou-echi" type="462c0819:PsiDirectoryNode" />
+              <item name="pubaoyou-echi-website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pubaoyou-echi-website/pom.xml" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.42528737" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1661998958141" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.26091954" />
+    <property name="settings.editor.selected.configurable" value="sonarlint" />
   </component>
-  <component name="RunManager" selected="Application.GatewayRunner">
-    <configuration name="EurkeaRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pubaoyou.eurkea.EurkeaRunner" />
-      <module name="pubaoyou-echi-eurkea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pubaoyou.eurkea.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GatewayRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pubaoyou.gateway.GatewayRunner" />
-      <module name="pubaoyou-echi-gateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pubaoyou.gateway.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServiceRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pubaoyou.service.ServiceRunner" />
-      <module name="pubaoyou-echi-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pubaoyou.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.GatewayRunner" />
-        <item itemvalue="Application.ServiceRunner" />
-        <item itemvalue="Application.EurkeaRunner" />
-      </list>
-    </recent_temporary>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\github\pubaoyou\pubaoyou-echi\pubaoyou-echi-itextpdf\src\main\resources" />
+      <recent name="F:\project\github\pubaoyou\pubaoyou-echi\pubaoyou-echi-exam\src\main\resources" />
+      <recent name="F:\project\github\pubaoyou\pubaoyou-echi\pubaoyou-echi-website\src\main\resources\templates" />
+      <recent name="F:\project\github\pubaoyou\pubaoyou-echi\pubaoyou-echi-website\src\main\resources\static" />
+      <recent name="F:\project\github\pubaoyou\pubaoyou-echi\pubaoyou-echi-rocketmq-customer\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pubaoyou.seata.order.mapper" />
+      <recent name="com.pubaoyou.seata.account.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\github\pubaoyou\pubaoyou-echi\pubaoyou-echi-wechat\src\test\resources\weixin" />
+      <recent name="F:\project\github\pubaoyou\pubaoyou-echi\pubaoyou-echi-wechat\src\test\resources" />
+      <recent name="F:\project\github\pubaoyou\pubaoyou-echi\pubaoyou-echi-wechat\src\test\java" />
+      <recent name="F:\project\github\pubaoyou\pubaoyou-echi\pubaoyou-echi-wechat\src\test" />
+      <recent name="F:\project\github\pubaoyou\pubaoyou-echi\pubaoyou-echi-wechat\src\test\java\com\pubaoyou\test" />
+    </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ITestRunner">
+    <configuration name="Base64Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pubaoyou.utils.Base64Util" />
+      <module name="pubaoyou-echi-utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pubaoyou.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Base64Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pubaoyou.utils.Base64Utils" />
+      <module name="pubaoyou-echi-utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pubaoyou.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ITestUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pubaoyou.itext.utils.ITestUtils" />
+      <module name="pubaoyou-echi-itextpdf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pubaoyou.itext.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DockerFileRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pubaoyou-echi-dockerfile" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pubaoyou.dockerfile.DockerFileRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="pubaoyou-echi-exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pubaoyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pubaoyou.ExamRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ITestRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="pubaoyou-echi-itextpdf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pubaoyou.itext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pubaoyou.itext.ITestRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NativeRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pubaoyou-echi-native" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pubaoyou.eric.NativeRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pubaoyou-echi-website" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pubaoyou.WebRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Base64Util" />
+      <item itemvalue="Application.Base64Utils" />
+      <item itemvalue="Application.ITestUtils" />
+      <item itemvalue="Spring Boot.DockerFileRunner" />
+      <item itemvalue="Spring Boot.NativeRunner" />
+      <item itemvalue="Spring Boot.WebRunner" />
+      <item itemvalue="Spring Boot.ExamRunner" />
+      <item itemvalue="Spring Boot.ITestRunner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ITestRunner" />
+        <item itemvalue="Application.ITestUtils" />
+        <item itemvalue="Application.Base64Utils" />
+        <item itemvalue="Application.Base64Util" />
+        <item itemvalue="Spring Boot.ExamRunner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3ba62573-9323-49d7-88a4-0ae0d54dd352" name="Default Changelist" comment="" />
-      <created>1627994860035</created>
+      <changelist id="9231d821-5497-441d-845c-5f3453f4fbcf" name="Default Changelist" comment="" />
+      <created>1635994046192</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1627994860035</updated>
+      <updated>1635994046192</updated>
+      <workItem from="1635994047676" duration="400000" />
+      <workItem from="1636004672034" duration="38000" />
+      <workItem from="1636004738189" duration="1336000" />
+      <workItem from="1636008422345" duration="192000" />
+      <workItem from="1636098076939" duration="137000" />
+      <workItem from="1636098242446" duration="42000" />
+      <workItem from="1636098439898" duration="13000" />
+      <workItem from="1636098568033" duration="29000" />
+      <workItem from="1636098610322" duration="466000" />
+      <workItem from="1636101968129" duration="1579000" />
+      <workItem from="1636423152781" duration="4932000" />
+      <workItem from="1636434283228" duration="11091000" />
+      <workItem from="1636505084999" duration="14290000" />
+      <workItem from="1636530191584" duration="3205000" />
+      <workItem from="1636535083052" duration="2358000" />
+      <workItem from="1636539072954" duration="115000" />
+      <workItem from="1636590836883" duration="2088000" />
+      <workItem from="1636594214074" duration="12025000" />
+      <workItem from="1636936863894" duration="597000" />
+      <workItem from="1637288435084" duration="19000" />
+      <workItem from="1637808756944" duration="2345000" />
+      <workItem from="1637905125794" duration="77000" />
+      <workItem from="1638328117755" duration="630000" />
+      <workItem from="1638843089241" duration="2035000" />
+      <workItem from="1638924550801" duration="717000" />
+      <workItem from="1638932369254" duration="7668000" />
+      <workItem from="1639100310071" duration="2058000" />
+      <workItem from="1639362700107" duration="48000" />
+      <workItem from="1639615702315" duration="10249000" />
+      <workItem from="1639637909043" duration="2536000" />
+      <workItem from="1639641756192" duration="266000" />
+      <workItem from="1639642525712" duration="3923000" />
+      <workItem from="1639717726731" duration="1260000" />
+      <workItem from="1639964743354" duration="597000" />
+      <workItem from="1639987513662" duration="10000" />
+      <workItem from="1640220599832" duration="7329000" />
+      <workItem from="1640316999712" duration="7721000" />
+      <workItem from="1640654124684" duration="21027000" />
+      <workItem from="1640741652949" duration="12417000" />
+      <workItem from="1640761614943" duration="593000" />
+      <workItem from="1640914581042" duration="150000" />
+      <workItem from="1640929550238" duration="1951000" />
+      <workItem from="1641256764103" duration="1373000" />
+      <workItem from="1641277964478" duration="640000" />
+      <workItem from="1641370256013" duration="659000" />
+      <workItem from="1641373641088" duration="1305000" />
+      <workItem from="1641780720225" duration="136000" />
+      <workItem from="1641790788866" duration="261000" />
+      <workItem from="1641796940827" duration="2813000" />
+      <workItem from="1641861454817" duration="2403000" />
+      <workItem from="1642148914082" duration="239000" />
+      <workItem from="1643016353439" duration="42000" />
+      <workItem from="1644818111166" duration="275000" />
+      <workItem from="1645435433204" duration="268000" />
+      <workItem from="1645435764346" duration="942000" />
+      <workItem from="1646621064510" duration="160000" />
+      <workItem from="1646978002116" duration="959000" />
+      <workItem from="1647242167267" duration="15000" />
+      <workItem from="1648622305894" duration="909000" />
+      <workItem from="1652247933681" duration="314000" />
+      <workItem from="1652774947475" duration="692000" />
+      <workItem from="1652778350447" duration="1163000" />
+      <workItem from="1652839819164" duration="38000" />
+      <workItem from="1655342618366" duration="3046000" />
+      <workItem from="1655348091573" duration="308000" />
+      <workItem from="1661478567591" duration="8423000" />
+      <workItem from="1661908859310" duration="8977000" />
+      <workItem from="1661938181672" duration="1168000" />
+      <workItem from="1661996953362" duration="1786000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Markdown" timestamp="1627995011410">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#Markdown/0.0.1920.1040@0.0.1920.1040" timestamp="1627995011410" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1627995155146">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627995155146" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1627995773647">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627995773647" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1627995773647">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627995773647" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1627995773647">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627995773647" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1627995773647">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627995773647" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1627995387854">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627995387854" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1627995061784">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627995061784" />
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="179873000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22453083" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.23535791" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41773963" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275488" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.3275488" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.3275488" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3275488" />
+      <window_info anchor="bottom" id="Sequence Diagram" order="15" sideWeight="0.4989339" weight="0.3286119" />
+      <window_info anchor="bottom" id="SonarLint" order="16" weight="0.40452617" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1575067" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21179625" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.18872017" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41773963" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275488" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.3275488" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.3275488" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3275488" />
+      <window_info anchor="bottom" id="Sequence Diagram" order="15" sideWeight="0.4989339" weight="0.3286119" />
+      <window_info anchor="bottom" id="SonarLint" order="16" visible="true" weight="0.40452617" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/service/login/impl/UserLoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-dao/src/main/java/com/pubaoyou/dao/login/impl/LoginUserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding>
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-wechat/src/test/resources/weixin/weixin.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-wechat/src/test/java/com/pubaoyou/test/LambdaInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-wechat/src/test/java/com/pubaoyou/test/LambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/java/com/pubaoyou/wechat/WechatRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/constant/CommonConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/security/CustomerUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-exam/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-exam/src/main/java/com/pubaoyou/service/impl/ExamServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-exam/src/main/java/com/pubaoyou/service/ExamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-exam/src/main/resources/static/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-website/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-exam/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-eurkea/src/main/java/com/pubaoyou/eurkea/EurkeaRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-exam/src/main/resources/templates/main/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-exam/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-exam/src/main/java/com/pubaoyou/ExamRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-exam/src/main/java/com/pubaoyou/controller/ExamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/java/com/pubaoyou/wechat/controller/TemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-wechat/src/main/java/com/pubaoyou/wechat/constant/WechatUrlConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-utils/src/main/java/com/pubaoyou/utils/Base64Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2934">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/utils/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/controller/common/CommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-service/src/main/java/com/pubaoyou/service/controller/user/UserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-xxljob/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-graphql/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-gateway/src/main/java/com/pubaoyou/gateway/config/GatewayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-gateway-nacos/src/main/java/com/pubaoyou/NacosGatewayRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-gateway-nacos/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-seata-account/src/main/java/com/pubaoyou/seata/account/dao/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-gateway-nacos/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-seata-account/src/main/java/com/pubaoyou/seata/account/AccountRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-seata-account/src/main/java/com/pubaoyou/seata/account/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-native/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="12" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-website/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="21" selection-start-line="19" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-itextpdf/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.jar!/com/itextpdf/text/pdf/PdfReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/website/controller/UserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-website/src/main/java/com/pubaoyou/WebRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/itext/utils/ITestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="62" column="63" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/itext/controller/ItextController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubaoyou-echi-itextpdf/src/main/java/com/pubaoyou/itext/ITestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|pubaoyou-echi-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

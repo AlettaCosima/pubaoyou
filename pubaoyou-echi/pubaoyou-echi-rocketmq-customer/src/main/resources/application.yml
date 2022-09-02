@@ -1,0 +1,19 @@
+server:
+  port: 8191
+
+spring:
+  application:
+    name: pubaoyou-rabbitmq-customer
+
+rocketmq:
+  name-server: 172.16.229.41:9876
+  producer:
+    group: my-group
+
+
+
+
+
+
+
+
